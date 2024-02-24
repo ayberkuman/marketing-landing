@@ -165,6 +165,11 @@ function Services() {
               customised CMS. That’s why we run all of our client projects out
               of a single, enormous Joomla instance.
             </ListItem>
+            <ListItem title="Lead Generation">
+              At Studio we understand the importance of having a robust and
+              customised CMS. That’s why we run all of our client projects out
+              of a single, enormous Joomla instance.
+            </ListItem>
           </List>
         </div>
       </Container>
@@ -185,15 +190,19 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+            Your Partner in Digital Transformation
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+            In the vibrant heart of Dubai, we lead with marketing that propels
+            your business to the forefront. We understand the power of a strong
+            online presence. Beyond development, our priority is delivering
+            marketing excellence that ensures your brand's success in a digital
+            world.
           </p>
         </FadeIn>
       </Container>
+
+      <Services />
 
       <Clients />
 
@@ -207,8 +216,6 @@ export default async function Home() {
         finding a way to access the user’s microphone without triggering one of
         those annoying permission dialogs.
       </Testimonial>
-
-      <Services />
 
       <ContactSection />
     </>
